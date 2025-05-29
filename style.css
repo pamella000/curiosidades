@@ -41,11 +41,10 @@ justify-content: center;
 }
 
 .curiosidade-card {
-background-color:
+background-color:rgb(188, 22, 217);
 border-radius : 8px; 
 white;
-box-shadow: 0 0 10px ☐
-rgba(0, 0, 0, 0.1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 padding: 1rem;
 width: 300px;
 transition: transform 0.3s ease;
