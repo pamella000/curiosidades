@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curiosidades Incríveis</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Curiosidades Incríveis</h1>
-    </header>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mistérios do Terror</title>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mistérios do Terror</h1>
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#rodape">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <div class="intro">
-        <p>Descubra curiosidades fascinantes sobre o mundo ao nosso redor!</p>
+  <main>
+    <section id="introducao">
+      <h2>Introdução</h2>
+      <p>O terror sempre fascinou e assustou as pessoas. Desde lendas urbanas até filmes aterrorizantes, o medo é uma emoção poderosa. Aqui você vai descobrir curiosidades assustadoras do mundo do terror!</p>
+    </section>
+
+    <section id="curiosidades">
+      <h2>Curiosidades Assustadoras</h2>
+      <div class="cards-container">
+        <div class="card">👻 O filme "O Exorcista" teve tantos acidentes durante as gravações que muitos acreditam que o set estava amaldiçoado.</div>
+        <div class="card">🧟‍♂️ Os zumbis têm origem no Haiti, ligados a rituais do vodu onde se acreditava que mortos podiam ser controlados.</div>
+        <div class="card">🪦 A lenda da “Loira do Banheiro” é uma das mais populares entre os estudantes brasileiros.</div>
+        <div class="card">🎃 O Halloween vem de um antigo festival celta chamado Samhain, onde se acreditava que os mortos caminhavam entre os vivos.</div>
       </div>
+      <button onclick="mostrarCuriosidade()">Mostrar Curiosidade Aleatória</button>
+      <p id="curiosidade-aleatoria"></p>
+    </section>
+  </main>
 
-      <section class="curiosidades">
-        <div class="curiosidade-card">
-          <h3>Você sabia?</h3>
-          <p>O polvo tem três corações e o sangue azul!</p>
-        </div>
+  <footer id="rodape">
+    <p>Site criado por [Seu Nome]</p>
+    <a href="#">Instagram</a> |
+    <a href="#">YouTube</a>
+  </footer>
 
-        <div class="curiosidade-card">
-          <h3>Fato curioso</h3>
-          <p>A Lua se afasta da Terra cerca de 3,8 cm por ano.</p>
-        </div>
-
-        <div class="curiosidade-card">
-          <h3>Incrível!</h3>
-          <p>Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.</p>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>Site desenvolvido por Maria Pâmella e Ana Beatriz - Colégio Estadual Vicente Rijo - Londrina PR</p>
-    </footer>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
