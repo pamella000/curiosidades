@@ -1,61 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mistérios do Terror</title>
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curiosidades de Terror</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Mistérios do Terror</h1>
+    <h1>Curiosidades de Terror</h1>
     <nav>
       <ul>
-        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#intro">Introdução</a></li>
         <li><a href="#curiosidades">Curiosidades</a></li>
-        <li><a href="#rodape">Contato</a></li>
+        <li><a href="#footer">Rodapé</a></li>
       </ul>
     </nav>
   </header>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#curiosidades">Curiosidades</a>
-    <a href="#videos">Vídeos</a>
-    <a href="#galeria">Galeria</a>
-    <a href="#links">Links Úteis</a>
-  </nav>
-
-  <div- class= "hero">
-    <h2>Veja as histórias mais aterrorizantes</h2>
-    </div>
-
   <main>
-    <section id="introducao">
-      <h2>Introdução</h2>
-      <p>O terror sempre fascinou e assustou as pessoas. Desde lendas urbanas até filmes aterrorizantes, o medo é uma emoção poderosa. Aqui você vai descobrir curiosidades assustadoras do mundo do terror!</p>
+    <section id="intro">
+      <h2>Prepare-se para o medo...</h2>
+      <p>Você sabia que muitas histórias de terror são inspiradas em fatos reais? Descubra curiosidades assustadoras sobre o mundo do terror, que vão fazer você olhar debaixo da cama antes de dormir.</p>
     </section>
 
-    <section id="curiosidades">
-      <h2>Curiosidades Assustadoras</h2>
-      <div class="cards-container">
-        <div class="card">👻 O filme "O Exorcista" teve tantos acidentes durante as gravações que muitos acreditam que o set estava amaldiçoado.</div>
-        <div class="card">🧟‍♂️ Os zumbis têm origem no Haiti, ligados a rituais do vodu onde se acreditava que mortos podiam ser controlados.</div>
-        <div class="card">🪦 A lenda da “Loira do Banheiro” é uma das mais populares entre os estudantes brasileiros.</div>
-        <div class="card">🎃 O Halloween vem de um antigo festival celta chamado Samhain, onde se acreditava que os mortos caminhavam entre os vivos.</div>
+    <section id="curiosidades" class="cards">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Annabelle_Doll.jpg/640px-Annabelle_Doll.jpg" alt="Boneca Annabelle">
+        <h3>Annabelle</h3>
+        <p>A boneca Annabelle é real e está trancada em um museu oculto nos EUA.</p>
       </div>
-      <button onclick="mostrarCuriosidade()">Mostrar Curiosidade Aleatória</button>
-      <p id="curiosidade-aleatoria"></p>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/04/21/15/33/forest-5071410_1280.jpg" alt="Floresta Assustadora">
+        <h3>Floresta Aokigahara</h3>
+        <p>Localizada no Japão, essa floresta é conhecida como "Floresta do Suicídio" e tem uma atmosfera aterrorizante.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/12/54/scary-1867922_960_720.jpg" alt="Cinema de Terror">
+        <h3>Filmes Amaldiçoados</h3>
+        <p>Produções como "O Exorcista" e "Poltergeist" tiveram acidentes e mortes inexplicáveis durante as filmagens.</p>
+      </div>
+    </section>
+
+    <section class="interacao">
+      <button id="btnCuriosidade">Mostrar Curiosidade Aleatória</button>
+      <p id="curiosidadeAleatoria"></p>
     </section>
   </main>
 
-
-
-  <footer id="rodape">
-    <p>Site criado por Maria Pâmella e Ana Beatriz</p>
-    <a href="#">Instagram</a> |
-    <a href="#">YouTube</a>
+  <footer id="footer">
+    <p>Site desenvolvido por Ana Beatriz e Maria Pâmella </p>
+    <p>Fontes: 
+      <a href="https://pt.wikipedia.org/wiki/Annabelle" target="_blank">Wikipedia</a> | 
+      <a href="https://www.megacurioso.com.br/terror" target="_blank">Mega Curioso</a>
+    </p>
   </footer>
 
   <script src="script.js"></script>
